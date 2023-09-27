@@ -1,0 +1,11 @@
+#content-wrapper{
+    display: flex;
+    height: 100%;
+    margin: 0 auto 8rem;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    max-width: 62.5rem;
+    padding: 0 2.5rem;
+    width: 100%;
+}

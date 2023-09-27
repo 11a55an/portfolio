@@ -1,0 +1,23 @@
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    min-width: 50vws;
+}
+.hero-container h2{
+    /* font-size: 42px; */
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 0.5rem;
+    font-weight: 700;
+}
+.hero-container img{
+    height: 32px;
+}
+.hero-container span{
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 8px 0 8px;
+    color: #ffffdf;
+}
