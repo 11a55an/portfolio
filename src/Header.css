@@ -1,0 +1,97 @@
+header{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#header-wrapper{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 100px;
+  justify-content: space-between;
+  max-width: 62.5rem;
+  padding: 0 2.5rem;
+  width: 100%;
+}
+.logo{
+  width: 40%;
+  float: left;
+  position: relative;
+}
+.logo h1{
+  color: #fafafa;
+  filter: none!important;
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.menu ul, li{
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  width:60%;
+  float:right;
+  text-align:right;
+  margin: 0;
+  padding: 0;
+}
+.menu li a{
+  color:#fafafa;
+  font-size: 16px;
+  line-height: 1.75rem;
+  text-decoration: none;
+  margin-right:20px;
+  padding:10px 20px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+.menu li a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 0;
+  border-radius: 16px;
+  background: #fafafa;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.menu li a:hover::after {
+  width: 100%;
+}
+.resume{
+  color:#fafafa;
+  font-size: 16px;
+  line-height: 1.75rem;
+  text-decoration: none;
+  margin-right:20px;
+  padding:5px 20px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+}
+
+.resume:hover{
+  background-color: #fafafa;
+  color: #121212;
+}
+.resume:hover::after{
+  width: 0;
+}
