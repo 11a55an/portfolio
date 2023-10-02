@@ -1,0 +1,25 @@
+#skills-wrapper{
+    display: flex;
+    height: 100%;
+    margin: 0 auto 8rem;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    max-width: 62.5rem;
+    padding: 0 2.5rem;
+    width: 100%;
+}
+#skills-wrapper button{
+    color:#fafafa;
+    background-color: #1c1c1c;
+    margin: 5px 10px;
+    font-size: 16px;
+    line-height: 2.5rem;
+    text-decoration: none;
+    padding: 1px 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease-out 0s;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+}

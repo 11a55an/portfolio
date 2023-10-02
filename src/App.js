@@ -1,6 +1,7 @@
 import About from './About';
 import Content from './Content';
 import Header from './Header';
+import Skills from './Skills';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Content/>
       <About/>
+      <Skills/>
     </div>
   );
 }
