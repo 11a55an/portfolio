@@ -3,10 +3,8 @@
     height: 100%;
     margin: 0 auto 8rem;
     align-items: center;
-    display: flex;
-    height: 100%;
-    max-width: 62.5rem;
-    padding: 0 2.5rem;
+    max-width: 920px;
+    padding: 0 40px;
     width: 100%;
 }
 #skills-wrapper button{

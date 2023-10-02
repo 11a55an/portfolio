@@ -5,19 +5,39 @@
     min-height: 50vh;
     min-width: 50vws;
 }
+.hero-container .hey{
+    font-size: 42px;
+    font-family: 'Roboto', Arial, sans-serif;
+    /* line-height: 4rem; */
+    font-weight: 900;
+    line-height: 4rem;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
 .hero-container h2{
-    /* font-size: 42px; */
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 2rem;
-    line-height: 0.5rem;
+    font-size: 42px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 4rem;
+    font-weight: 900;
+    margin: 0;
+}
+.hero-container h3{
+    font-size: 32px;
+    font-family: 'Roboto', Arial, sans-serif;
+    /* line-height: 3.5rem; */
+    margin: -2px 0px 0px;
     font-weight: 700;
 }
 .hero-container img{
-    height: 32px;
+    height: 48px;
+    padding-left: 5px;
 }
-.hero-container span{
+.hero-container p{
     font-size: 18px;
     font-family: Roboto, Arial, sans-serif;
-    padding: 8px 0 8px;
+    padding: 18px 0px 32px;
     color: #ffffdf;
+    margin: 0;
 }

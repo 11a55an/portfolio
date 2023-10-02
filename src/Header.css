@@ -7,11 +7,11 @@ header{
   align-items: center;
   display: flex;
   height: 100%;
-  margin: 0 auto;
+  margin: 0  auto;
   min-height: 100px;
   justify-content: space-between;
-  max-width: 62.5rem;
-  padding: 0 2.5rem;
+  max-width: 920px;
+  padding: 0 40px;
   width: 100%;
 }
 .logo{
@@ -22,9 +22,9 @@ header{
 .logo h1{
   color: #fafafa;
   filter: none!important;
-  font-size: 1.75rem;
+  font-size: 32px;
   font-weight: 700;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -45,9 +45,9 @@ header{
   font-size: 16px;
   line-height: 1.75rem;
   text-decoration: none;
-  margin-right:20px;
+  margin-right:30px;
   padding:10px 20px;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 700;
   transition: all 0.3s ease-out 0s;
   position: relative;

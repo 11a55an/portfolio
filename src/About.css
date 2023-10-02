@@ -5,13 +5,15 @@
     align-items: center;
     display: flex;
     height: 100%;
-    max-width: 62.5rem;
-    padding: 0 2.5rem;
+    max-width: 920px;
+    padding: 0 40px;
     width: 100%;
 }
 #about-wrapper p{
     float: left;
-    margin: auto;
+    justify-content: center;
+    /* padding: 16px 0px; */
+    /* margin: 0px!important; */
 }
 #about-wrapper h2{
     display: block!important;

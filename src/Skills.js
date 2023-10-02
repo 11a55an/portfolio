@@ -13,7 +13,7 @@ function Skills() {
   return (
     <div id="skills-wrapper">
       <div className="skills">
-        <h2>Skills</h2>
+        <h3>Skills.</h3>
         <button> <FcSettings/> Machine Learning</button>
         <button> <FcMindMap/> Deep Learning</button>
         <button> <FcSearch/> Data Analysis</button>

@@ -1,0 +1,65 @@
+#work-wrapper{
+    display: flex;
+    height: 100%;
+    margin: 0 auto 8rem;
+    align-items: center;
+    max-width: 920px;
+    padding: 0 40px;
+    width: 100%;
+}
+.left{
+    float: left;
+}
+.left .card{
+    margin-left:2px;
+}
+p.lang{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+p.forks{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+p.stars{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+h1.title{
+    padding-top: 15px;
+    margin: 0;
+    font-size: 21px;
+    padding-left: 15px;
+    text-align: left;
+    font-weight: 700;
+}
+p.desc{
+    padding-top: 5px;
+    margin: 0;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    padding-bottom: 5px;
+    /* font-weight: 700; */
+}
+.card{
+    margin: auto;
+    height: 120px;
+    width: 440px;
+    margin: 10px;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+}
