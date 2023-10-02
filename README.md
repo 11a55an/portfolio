@@ -10,8 +10,7 @@ This is my personal portfolio website, developed using ReactJs and deployed on V
   - [Installation](#installation)
   - [Usage](#usage)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
 - [Acknowledgements](#acknowledgements)
 
 ## Features
@@ -36,7 +35,7 @@ To run this project locally and make modifications, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/11a55an/portfolio.git
    ```
 
 2. Change to the project directory:
@@ -63,7 +62,12 @@ To run this project locally and make modifications, follow these steps:
 - Make necessary modifications to the code and customize the content to suit your needs.
 
 ## Deployment
+
 This project is automatically deployed on Vercel. Any changes pushed to the main branch will trigger a new deployment.
+
+## Demo
+
+You can see a live demo of this project at [11a55an.vercel.app](11a55an.vercel.app).
 
 ## Acknowledgements
 
