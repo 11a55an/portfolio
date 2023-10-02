@@ -1,4 +1,5 @@
 import About from './About';
+import Footer from './Footer';
 import Content from './Content';
 import Header from './Header';
 import Skills from './Skills';
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <Skills/>
       <Work/>
+      <Footer/>
     </div>
   );
 }
