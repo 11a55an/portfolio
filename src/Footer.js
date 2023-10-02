@@ -1,8 +1,5 @@
 import "./Footer.css";
-import {FaKaggle} from "react-icons/fa";
-import {FaLinkedinIn} from "react-icons/fa";
-import {FaTwitter} from "react-icons/fa";
-import {FiGithub} from "react-icons/fi";
+
 
 function Footer() {
   return (

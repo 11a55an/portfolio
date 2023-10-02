@@ -41,3 +41,22 @@
     color: #ffffdf;
     margin: 0;
 }
+.hero-container ul{
+    padding: 0;
+}
+.hero-container a{
+    display: inline-block;
+    background-color: #121212;
+    color: #fafafa;
+    font-size: 16px;
+    margin: 0 16px 0 0;
+    padding: 8px 20px;
+    text-transform: none;
+    text-decoration: none;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+}
+.hero-container a:hover{
+    background-color: #fafafa;
+    color: #121212;
+}
