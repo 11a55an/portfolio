@@ -1,22 +1,39 @@
+// Header.js
+
+import React, { useState } from 'react';
 import './Header.css';
 
 function Header() {
-    return (
-      <header>
-        <div id='header-wrapper'>
-          <div className='logo'>
-            <h1>Hassan</h1>
-          </div>
-          <ul className="menu">
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Work</a></li>
-          </ul>
-          <a className='resume' href="">Resume</a>
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <header>
+      <div id='header-wrapper'>
+        <div className='logo'>
+          <h1>Hassan</h1>
         </div>
-      </header>
-    );
-  }
-  
-  export default Header;
+        <div className={`overlay ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}></div>
+        <div className={`menu ${menuOpen ? 'open' : ''}`}>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Work</a></li>
+            <li><a className='resume' href="">Resume</a></li>
+          </ul>
+        </div>
+        <div className='toggle-button' onClick={toggleMenu}>
+          <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+          <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+          <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default Header;
