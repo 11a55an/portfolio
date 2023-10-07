@@ -1,13 +1,19 @@
-#skills-wrapper{
+#skills{
     display: flex;
     height: 100%;
     margin: 0 auto 8rem;
-    align-items: center;
     max-width: 920px;
+    flex-direction: column;
     padding: 0 40px;
     width: 100%;
 }
-#skills-wrapper button{
+.skills-tab {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .tablinks {
     color:#fafafa;
     background-color: #1c1c1c;
     margin: 5px 10px;
@@ -20,11 +26,53 @@
     transition: all 0.3s ease-out 0s;
     border: 1px solid #fafafa;
     border-radius: 10px;
-}
+    transition: background-color 0.3s ease;
+  }
+  
+  .tablinks:hover {
+    background-color: #fafafa;
+    color: #1c1c1c;
+  }
+  
+  .tabcontent {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tabcontent h2 {
+    margin-bottom: 10px;
+  }
+  
+  .skill-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6a737d;
+  }
+  
+  .skill-badge:hover {
+    background-color: #36A0FF;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Show the content of active tab */
+  .tabcontent.active {
+    display: block;
+  }
 
-@media (max-width: 780px) {
-    #skills-wrapper{
+  @media (max-width: 780px) {
+    #skills{
         width: 85%;
-        min-width: none!important;
+        /* margin: 0; */
     }
 }
+  

@@ -1,31 +1,53 @@
-import "./Skills.css";
-import { FcMindMap } from 'react-icons/fc';
-import {FcSettings} from "react-icons/fc";
-import {FcSearch} from "react-icons/fc";
-import {FcLineChart} from "react-icons/fc";
-import {FcAcceptDatabase} from "react-icons/fc";
-import {FcGlobe} from "react-icons/fc";
-import {FcDataSheet} from "react-icons/fc";
-import {FcEngineering} from "react-icons/fc";
-import {FcDatabase} from "react-icons/fc";
+import React, { useState } from 'react';
+import './Skills.css';
 
-function Skills() {
+const SkillsTab = () => {
+  const [activeTab, setActiveTab] = useState(null);
+
+  const handleTabClick = (tabName) => {
+    setActiveTab((prevActiveTab) => (prevActiveTab === tabName ? null : tabName));
+  };
+
+  const skills = {
+    "🌍 Web Development": ['HTML/CSS','JavaScript', 'React.Js', 'Node.Js'],
+    "📱 App Development": ['Flutter', 'Kotlin Compose'],
+    "🖥️ Desktop Development": ['PyQt'],
+    "🤖 Machine Learning": ['Data Analysis', "Data Visualization", "Data Mining", "Web Scraping", "Natural Language Processing", "Computer Vision"],
+  };
+
   return (
-    <div id="skills-wrapper">
-      <div className="skills">
-        <h3>Skills.</h3>
-        <button> <FcSettings/> Machine Learning</button>
-        <button> <FcMindMap/> Deep Learning</button>
-        <button> <FcSearch/> Data Analysis</button>
-        <button> <FcLineChart/> Data Visualization</button>
-        <button> <FcAcceptDatabase/> Data Modeling</button>
-        <button> <FcGlobe/> Web Scraping</button>
-        <button> <FcDataSheet/> Excel</button>
-        <button> <FcEngineering/> Python</button>
-        <button> <FcDatabase/> MySQL</button>
+    <div id='skills'>
+      <h3>Skills</h3>
+    <div className="skills-tab">
+      <div className="tab">
+        {Object.keys(skills).map((category) => (
+          <button
+            key={category}
+            className={`tablinks ${activeTab === category ? 'active' : ''}`}
+            onClick={() => handleTabClick(category)}
+          >
+            {category.charAt(0).toUpperCase() + category.slice(1)}
+          </button>
+        ))}
       </div>
+
+      {Object.keys(skills).map((category) => (
+        <div
+          key={category}
+          className={`tabcontent ${activeTab === category ? 'active' : ''}`}
+        >
+          <div>
+            {skills[category].map((skill, index) => (
+              <span key={index} className="skill-badge">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
     </div>
   );
-}
+};
 
-export default Skills;
+export default SkillsTab;
