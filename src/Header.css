@@ -102,7 +102,6 @@ header{
     width: 100%;
     padding: 0;
     margin: 0;
-    position: relative;
   }
   
   #header-wrapper {
@@ -110,7 +109,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    }
+    width: 85%;
+  }
   
   .logo {
     flex: 1; /* Use flex for logo */

@@ -60,3 +60,9 @@
     background-color: #fafafa;
     color: #121212;
 }
+
+@media (max-width: 780px) {
+    .hero-container{
+        width: 100%;
+    }
+}

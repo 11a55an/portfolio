@@ -21,3 +21,10 @@
     border: 1px solid #fafafa;
     border-radius: 10px;
 }
+
+@media (max-width: 780px) {
+    #skills-wrapper{
+        width: 85%;
+        min-width: none!important;
+    }
+}

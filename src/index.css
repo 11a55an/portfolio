@@ -5,6 +5,8 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
 }
 h3{
   font-size: 28px;
@@ -14,6 +16,13 @@ h3{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+* {
+
+  margin: 0px;
+  
+  padding: 0px;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');

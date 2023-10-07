@@ -6,8 +6,9 @@ import { BiGitRepoForked } from "react-icons/bi";
 function Work() {
   return (
     <div id="work-wrapper">
+      <h3>Work.</h3>
       <div className="work">
-        <h3>Work.</h3>
+        <div className="work-res">
         <div className="left">
           <div id="card-wrapper">
             <div className="card">
@@ -74,6 +75,7 @@ function Work() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

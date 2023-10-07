@@ -9,3 +9,10 @@
     padding: 0 40px;
     width: 100%;
 }
+
+@media (max-width: 780px) {
+    #content-wrapper{
+        width: 85%;
+        /* margin: 0; */
+    }
+}

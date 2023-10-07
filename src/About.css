@@ -21,6 +21,7 @@
 .about-text{
     float: left;
     width: 69%;
+    text-align: justify;
 }
 .about-img img{
     float: right;
@@ -43,4 +44,25 @@
 .readmore:hover{
     background-color: #fafafa;
     color: #121212;
+}
+
+@media (max-width: 780px) {
+    #about-wrapper{
+        width: 85%;
+        max-width: none;
+        /* margin: 0; */
+    }
+    .about-text{
+        width: 100%;
+        float: none;
+        text-align: justify;
+    }
+    .about-img{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .about-img img{
+        float: none;
+        width: 300px;
+    }
 }

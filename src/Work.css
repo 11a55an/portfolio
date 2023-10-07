@@ -2,10 +2,10 @@
     display: flex;
     height: 100%;
     margin: 0 auto 8rem;
-    align-items: center;
     max-width: 920px;
     padding: 0 40px;
     width: 100%;
+    flex-direction: column;
 }
 .left{
     float: left;
@@ -62,4 +62,35 @@ p.desc{
     margin: 10px;
     background-color: #1d1d1d;
     border-radius: 5px;
+}
+@media (max-width: 904px) {
+    .work-res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 780px) {
+    .card{
+        width: 400px;
+    }
+    #work-wrapper{
+        width: 85%;
+        margin: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .left{
+        float: none;
+    }
+    .work-res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
 }
