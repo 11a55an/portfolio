@@ -1,4 +1,4 @@
-import "./Work.css";
+import "../styles/Work.css";
 import { BiCodeAlt } from "react-icons/bi";
 import { BiSolidStar } from "react-icons/bi";
 import { BiGitRepoForked } from "react-icons/bi";

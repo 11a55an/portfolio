@@ -1,6 +1,5 @@
 import Hero from './Hero';
-import "./Content.css";
-import About from './About';
+import "../styles/Content.css";
 
 function Content() {
   return (

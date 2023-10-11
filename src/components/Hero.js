@@ -1,5 +1,5 @@
-import './Hero.css';
-import hand from "./waving-hand.webp";
+import '../styles/Hero.css';
+import hand from "../assets/waving-hand.webp";
 import {HiMail} from "react-icons/hi";
 import {FaLinkedinIn} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
