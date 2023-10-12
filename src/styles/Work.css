@@ -21,6 +21,10 @@ p.lang{
     margin: 0;
     display: inline-block;
 }
+.work-res a{
+    color: #fff;
+    text-decoration: none;
+}
 p.forks{
     font-size: 12px;
     padding-left: 15px;
@@ -62,6 +66,11 @@ p.desc{
     margin: 10px;
     background-color: #1d1d1d;
     border-radius: 5px;
+}
+
+.card:hover{
+    background-color: #fafafa;
+    color:#1d1d1d;
 }
 @media (max-width: 904px) {
     .work-res{
