@@ -4,6 +4,7 @@ import Content from './Content';
 import Header from './Header';
 import Skills from './Skills';
 import Work from './Work';
+import ContactForm from './Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Skills/>
       <Work/>
+      <ContactForm/>
       <Footer/>
     </div>
   );

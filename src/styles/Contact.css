@@ -1,0 +1,106 @@
+#contact-wrapper{
+    display: flex;
+    height: 100%;
+    margin: 0 auto 8rem;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    max-width: 920px;
+    padding: 0 40px;
+    width: 100%;
+}
+
+.contact{
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: 'Roboto', Arial, sans-serif;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  color: #fafafa;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: none;
+}
+
+[placeholder]::-webkit-input-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover::-webkit-input-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus::-webkit-input-placeholder { color: transparent; }
+
+[placeholder]::-moz-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover::-moz-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus::-moz-placeholder { color: transparent; }
+
+[placeholder]:-ms-input-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover:-ms-input-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus:-ms-input-placeholder { color: transparent; }
+
+form {
+  width: 400px;
+  margin:auto;
+}
+
+input[type="text"] {
+  display: block;
+  width: 400px;
+  margin: 0 0 20px;
+  padding: 8px 12px 10px 12px;
+  border: 1px solid rgba(0,0,0,.5);
+  background: #1d1d1d;
+}
+
+input[type="email"] {
+    display: block;
+    width: 400px;
+    margin: 0 0 20px;
+    padding: 8px 12px 10px 12px;
+    border: 1px solid rgba(0,0,0,.5);
+    background: #1d1d1d;
+  }
+
+textarea {
+  display: block;
+  width: 400px;
+  height: 150px;
+  margin: 0 0 20px;
+  padding: 8px 12px 10px 12px;
+  border: 1px solid rgba(0,0,0,.5);
+  background: #1d1d1d;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 150px;
+  margin: 0 0 20px;
+  padding: 8px 0 10px 0;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,.5);
+  background: #1d1d1d;
+}
+.thanks{
+    width: 160px;
+    margin: auto;
+    text-align: center;
+}
+@media (max-width: 780px) {
+    #contact-wrapper{
+        width: 85%;
+        /* margin: 0; */
+    }
+}

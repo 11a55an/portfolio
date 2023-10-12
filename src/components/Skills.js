@@ -33,7 +33,7 @@ const SkillsTab = () => {
 
   return (
     <div id='skills'>
-      <h3>Skills</h3>
+      <h3>Skills.</h3>
       <div className="skills-tab">
         <div className="tab">
           {Object.keys(skills).map((category) => (
