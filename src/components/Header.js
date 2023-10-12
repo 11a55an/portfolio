@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Header.css';
-
+import resume from "../assets/Resume.pdf"
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,11 +17,11 @@ function Header() {
         <div className={`overlay ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}></div>
         <div className={`menu ${menuOpen ? 'open' : ''}`}>
           <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Work</a></li>
-            <li><a className='resume' href="">Resume</a></li>
+            <li><a href="#about-wrapper">About</a></li>
+            <li><a href="https://11a55an.medium.com/">Blog</a></li>
+            <li><a href="#contact-wrapper">Contact</a></li>
+            <li><a href="#work-wrapper">Work</a></li>
+            <li><a className='resume' href={resume}>Resume</a></li>
           </ul>
         </div>
         <div className='toggle-button' onClick={toggleMenu}>
