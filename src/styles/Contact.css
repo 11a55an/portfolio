@@ -23,6 +23,7 @@ textarea {
   font-family: 'Roboto', Arial, sans-serif;
   vertical-align: baseline;
   border: 0;
+  border-radius: 5px;
   outline: 0;
   color: #fafafa;
 }
@@ -59,8 +60,9 @@ input[type="text"] {
   display: block;
   width: 400px;
   margin: 0 0 20px;
+  font-family: 'Roboto', Arial, sans-serif;
   padding: 8px 12px 10px 12px;
-  border: 1px solid rgba(0,0,0,.5);
+  /* border: 1px solid rgba(0,0,0,.5); */
   background: #1d1d1d;
 }
 
@@ -69,6 +71,7 @@ input[type="email"] {
     width: 400px;
     margin: 0 0 20px;
     padding: 8px 12px 10px 12px;
+    font-family: 'Roboto', Arial, sans-serif;
     border: 1px solid rgba(0,0,0,.5);
     background: #1d1d1d;
   }
@@ -80,6 +83,7 @@ textarea {
   margin: 0 0 20px;
   padding: 8px 12px 10px 12px;
   border: 1px solid rgba(0,0,0,.5);
+  font-family: 'Roboto', Arial, sans-serif;
   background: #1d1d1d;
 }
 
@@ -89,9 +93,16 @@ input[type="submit"] {
   margin: 0 0 20px;
   padding: 8px 0 10px 0;
   text-align: center;
-  border: 1px solid rgba(0,0,0,.5);
+  font-family: 'Roboto', Arial, sans-serif;
   background: #1d1d1d;
 }
+
+input[type="submit"]:hover {
+  background: #fafafa;
+  color: #1d1d1d;
+}
+
+
 .thanks{
     width: 160px;
 }
