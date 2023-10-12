@@ -19,7 +19,7 @@ function Header() {
           <ul>
             <li><a href="#about-wrapper">About</a></li>
             <li><a href="https://11a55an.medium.com/">Blog</a></li>
-            <li><a href="#contact-wrapper">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#work-wrapper">Work</a></li>
             <li><a className='resume' href={resume}>Resume</a></li>
           </ul>

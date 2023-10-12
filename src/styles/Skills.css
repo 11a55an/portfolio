@@ -55,6 +55,7 @@
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+    text-decoration: none;
     background-color: #6a737d;
   }
   
@@ -68,6 +69,21 @@
   .tabcontent.active {
     display: block;
   }
+/* Existing CSS styles... */
+
+.github-link {
+  display: block;
+  margin-top: 10px;
+  color: #36A0FF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.github-link:hover {
+  text-decoration: none;
+}
+
+/* Media queries... */
 
   @media (max-width: 780px) {
     #skills{
